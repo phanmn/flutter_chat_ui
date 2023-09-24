@@ -39,8 +39,8 @@ class UserAvatar extends StatelessWidget {
 
     return Container(
       margin: bubbleRtlAlignment == BubbleRtlAlignment.left
-          ? const EdgeInsetsDirectional.only(end: 3)
-          : const EdgeInsets.only(right: 3),
+          ? const EdgeInsetsDirectional.only(end: 6)
+          : const EdgeInsets.only(right: 6),
       child: GestureDetector(
         onTap: () => onAvatarTap?.call(author),
         child: CircleAvatar(
