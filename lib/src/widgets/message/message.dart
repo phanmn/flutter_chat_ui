@@ -191,7 +191,7 @@ class Message extends StatelessWidget {
             imageHeaders: imageHeaders,
             onAvatarTap: onAvatarTap,
           )
-      : const SizedBox(width: 40);
+      : const SizedBox(width: 30);
 
   Widget _bubbleBuilder(
     BuildContext context,
