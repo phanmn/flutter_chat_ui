@@ -24,7 +24,7 @@ class UserName extends StatelessWidget {
     return name.isEmpty
         ? const SizedBox()
         : Padding(
-            padding: const EdgeInsets.only(bottom: 3),
+            padding: const EdgeInsets.only(bottom: 1),
             child: Text(
               name,
               maxLines: 1,
