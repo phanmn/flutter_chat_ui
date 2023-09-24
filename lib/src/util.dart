@@ -217,7 +217,7 @@ List<Object> calculateChatMessages(
       chatMessages.insert(
         0,
         MessageSpacer(
-          height: 12,
+          height: 3,
           id: message.id,
         ),
       );
